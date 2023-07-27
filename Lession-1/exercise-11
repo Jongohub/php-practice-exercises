@@ -14,7 +14,7 @@ By following this approach, you can effectively prevent XSS vulnerabilities and 
 </head>
 <body>
     <h1>XSS Prevention Example</h1>
-    <form action="acctions/process_form.php" method="post">
+    <form action="actions/process_form.php" method="post">
         <label for="name">Enter your name:</label>
         <input type="text" name="name" id="name" required>
         <input type="submit" value="Submit">
