@@ -1,6 +1,6 @@
 # PHP back-end exercises focusing on superglobals
 
-## Concept-inclined
+## Concept-inclined - Lesson 1
 Exercise 1: Form Handling
 Create a simple HTML form that takes a user's name and email address. When the form is submitted, use PHP to process the data and display a personalized message with the user's name and email.
 
@@ -31,7 +31,12 @@ Create a PHP script that fetches data from a database table and displays it with
 Exercise 10: API Integration
 Integrate with a public API using PHP. For example, fetch weather data from a weather API and display it on your webpage.
 
-## Problem specific
+Exercise 11: Cross-Site Scripting (XSS) Prevention
+Write a PHP script that demonstrates how to prevent Cross-Site Scripting (XSS) attacks. Create a form where users can submit their comments or messages. When the form is submitted, validate and sanitize the user input using PHP superglobals. Display the submitted comment/message on the same page in a secure manner, ensuring that any potential XSS vulnerabilities are mitigated. Additionally, implement proper error handling to inform users if their input contains invalid characters or exceeds the allowed length.
+
+Your PHP script should use the appropriate superglobals to handle form submissions, validate the input data, and sanitize it to prevent XSS attacks. Utilize functions like htmlspecialchars() or other relevant escaping techniques to ensure that user-submitted content is treated as plain text and not executable code.
+
+## Problem specific - Lesson 2
 Similar to above questions but are more problem specific in the sense of actual software solutions
 
 Exercise 1: Building a Simple Contact Form
