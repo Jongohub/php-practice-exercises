@@ -1,3 +1,12 @@
+<!-- process_form.php: This script handles the form submission. It checks if the request method is POST and then validates and sanitizes the user's name using filter_input() with the FILTER_SANITIZE_STRING filter. This step ensures that any potentially harmful input is cleaned up before further processing.
+
+The sanitized name is then displayed using the htmlspecialchars() function to prevent any XSS attacks. This function converts special characters to their corresponding HTML entities, ensuring that user-submitted data is treated as plain text and not executable code.
+
+When a user submits their name through the form, the process_form.php script processes the input and displays a greeting message using the sanitized name, preventing XSS attacks.
+
+By following this approach, you can effectively prevent XSS vulnerabilities and ensure that user-submitted data is safely displayed on your website. Always remember to validate, sanitize, and properly escape user input to build secure PHP applications. -->
+
+
 <!DOCTYPE html>
 <html>
 <head>
